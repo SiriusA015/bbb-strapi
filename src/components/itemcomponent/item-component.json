@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_itemcomponent_item_components",
+  "info": {
+    "displayName": "ItemComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "second",
+        "third"
+      ],
+      "default": "primary"
+    }
+  }
+}

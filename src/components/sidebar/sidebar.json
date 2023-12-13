@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sidebar_sidebars",
+  "info": {
+    "displayName": "Sidebar"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "second",
+        "third"
+      ],
+      "default": "primary",
+      "required": true
+    },
+    "shadow": {
+      "type": "enumeration",
+      "enum": [
+        "thin",
+        "normal",
+        "thick"
+      ],
+      "default": "normal",
+      "required": true
+    }
+  }
+}

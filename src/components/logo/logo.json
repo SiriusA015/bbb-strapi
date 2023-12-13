@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_logo_logos",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "default": "logo"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "second",
+        "third"
+      ],
+      "default": "primary",
+      "required": true
+    }
+  }
+}
