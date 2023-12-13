@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Hero": {
+    "hero": {
       "displayName": "Hero",
       "type": "component",
       "repeatable": false,
@@ -27,7 +27,7 @@
       },
       "component": "hero.hero"
     },
-    "Banner": {
+    "banner": {
       "displayName": "Banner",
       "type": "component",
       "repeatable": false,
@@ -38,7 +38,7 @@
       },
       "component": "banner.banner"
     },
-    "CardSection": {
+    "cardSection": {
       "displayName": "CardSection",
       "type": "component",
       "repeatable": false,

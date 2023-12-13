@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Logo": {
+    "logo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -27,7 +27,7 @@
       "component": "logo.logo",
       "required": true
     },
-    "Sidebar": {
+    "sidebar": {
       "displayName": "Sidebar",
       "type": "component",
       "repeatable": false,
@@ -38,7 +38,7 @@
       },
       "component": "sidebar.sidebar"
     },
-    "SectionTheme": {
+    "sectionTheme": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -53,7 +53,7 @@
       "required": true,
       "default": "primary"
     },
-    "Button": {
+    "button": {
       "displayName": "ItemComponent",
       "type": "component",
       "repeatable": false,

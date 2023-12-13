@@ -694,19 +694,19 @@ export interface ApiDashboardDashboard extends Schema.SingleType {
     };
   };
   attributes: {
-    Hero: Attribute.Component<'hero.hero'> &
+    hero: Attribute.Component<'hero.hero'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    Banner: Attribute.Component<'banner.banner'> &
+    banner: Attribute.Component<'banner.banner'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    CardSection: Attribute.Component<'cardsection.card-section'> &
+    cardSection: Attribute.Component<'cardsection.card-section'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -753,20 +753,20 @@ export interface ApiGlobalGlobal extends Schema.SingleType {
     };
   };
   attributes: {
-    Logo: Attribute.Component<'logo.logo'> &
+    logo: Attribute.Component<'logo.logo'> &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    Sidebar: Attribute.Component<'sidebar.sidebar'> &
+    sidebar: Attribute.Component<'sidebar.sidebar'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    SectionTheme: Attribute.Enumeration<['primary', 'second', 'third']> &
+    sectionTheme: Attribute.Enumeration<['primary', 'second', 'third']> &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -774,7 +774,7 @@ export interface ApiGlobalGlobal extends Schema.SingleType {
         };
       }> &
       Attribute.DefaultTo<'primary'>;
-    Button: Attribute.Component<'itemcomponent.item-component'> &
+    button: Attribute.Component<'itemcomponent.item-component'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

@@ -1,11 +1,12 @@
 {
   "collectionName": "components_banner_banners",
   "info": {
-    "displayName": "Banner"
+    "displayName": "Banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "BannerItem": {
+    "item": {
       "displayName": "BannerItem",
       "type": "component",
       "repeatable": true,

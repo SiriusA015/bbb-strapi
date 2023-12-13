@@ -4,12 +4,13 @@ export interface AfterloginAfterLogin extends Schema.Component {
   collectionName: 'components_afterlogin_after_logins';
   info: {
     displayName: 'After Login';
+    description: '';
   };
   attributes: {
-    Text1: Attribute.String &
+    text1: Attribute.String &
       Attribute.Required &
       Attribute.DefaultTo<'FIRST DEPOSIT BONUS'>;
-    Text2: Attribute.String &
+    text2: Attribute.String &
       Attribute.Required &
       Attribute.DefaultTo<'+180% REWARDS'>;
   };
@@ -19,9 +20,10 @@ export interface BannerBanner extends Schema.Component {
   collectionName: 'components_banner_banners';
   info: {
     displayName: 'Banner';
+    description: '';
   };
   attributes: {
-    BannerItem: Attribute.Component<'banneritem.banner-item', true>;
+    item: Attribute.Component<'banneritem.banner-item', true>;
   };
 }
 
@@ -40,9 +42,10 @@ export interface BeforeloginBeforeLogin extends Schema.Component {
   collectionName: 'components_beforelogin_before_logins';
   info: {
     displayName: 'Before Login';
+    description: '';
   };
   attributes: {
-    Text: Attribute.String &
+    text: Attribute.String &
       Attribute.Required &
       Attribute.DefaultTo<'SIGN UP & GET REWARD'>;
   };
@@ -52,11 +55,12 @@ export interface CarditemCardItem extends Schema.Component {
   collectionName: 'components_carditem_card_items';
   info: {
     displayName: 'CardItem';
+    description: '';
   };
   attributes: {
-    Title: Attribute.String;
-    Description: Attribute.String;
-    Image: Attribute.Media;
+    title: Attribute.String;
+    description: Attribute.String;
+    image: Attribute.Media;
   };
 }
 
@@ -64,9 +68,10 @@ export interface CardsectionCardSection extends Schema.Component {
   collectionName: 'components_cardsection_card_sections';
   info: {
     displayName: 'CardSection';
+    description: '';
   };
   attributes: {
-    CardItem: Attribute.Component<'carditem.card-item', true>;
+    item: Attribute.Component<'carditem.card-item', true>;
   };
 }
 
@@ -77,9 +82,9 @@ export interface HeroHero extends Schema.Component {
     description: '';
   };
   attributes: {
-    BeforeLogin: Attribute.Component<'beforelogin.before-login'>;
-    AfterLogin: Attribute.Component<'afterlogin.after-login'>;
-    HeroImage: Attribute.Media & Attribute.Required;
+    beforeLogin: Attribute.Component<'beforelogin.before-login'>;
+    afterLogin: Attribute.Component<'afterlogin.after-login'>;
+    image: Attribute.Media & Attribute.Required;
   };
 }
 
@@ -90,7 +95,7 @@ export interface ItemcomponentItemComponent extends Schema.Component {
     description: '';
   };
   attributes: {
-    Theme: Attribute.Enumeration<['primary', 'second', 'third']> &
+    theme: Attribute.Enumeration<['primary', 'second', 'third']> &
       Attribute.DefaultTo<'primary'>;
   };
 }

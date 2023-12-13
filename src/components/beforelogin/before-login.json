@@ -1,11 +1,12 @@
 {
   "collectionName": "components_beforelogin_before_logins",
   "info": {
-    "displayName": "Before Login"
+    "displayName": "Before Login",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Text": {
+    "text": {
       "type": "string",
       "required": true,
       "default": "SIGN UP & GET REWARD"

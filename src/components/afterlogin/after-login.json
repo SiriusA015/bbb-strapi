@@ -1,16 +1,17 @@
 {
   "collectionName": "components_afterlogin_after_logins",
   "info": {
-    "displayName": "After Login"
+    "displayName": "After Login",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Text1": {
+    "text1": {
       "type": "string",
       "required": true,
       "default": "FIRST DEPOSIT BONUS"
     },
-    "Text2": {
+    "text2": {
       "type": "string",
       "default": "+180% REWARDS",
       "required": true

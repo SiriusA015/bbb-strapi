@@ -6,19 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "BeforeLogin": {
+    "beforeLogin": {
       "displayName": "Before Login",
       "type": "component",
       "repeatable": false,
       "component": "beforelogin.before-login"
     },
-    "AfterLogin": {
+    "afterLogin": {
       "displayName": "After Login",
       "type": "component",
       "repeatable": false,
       "component": "afterlogin.after-login"
     },
-    "HeroImage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": true,
