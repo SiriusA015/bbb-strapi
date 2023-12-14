@@ -114,6 +114,19 @@ export interface LogoLogo extends Schema.Component {
   };
 }
 
+export interface PromotionadsPromotionAds extends Schema.Component {
+  collectionName: 'components_promotionads_promotion_ads';
+  info: {
+    displayName: 'PromotionAds';
+  };
+  attributes: {
+    image: Attribute.Media & Attribute.Required;
+    theme: Attribute.Enumeration<['primary', 'second', 'third']> &
+      Attribute.Required &
+      Attribute.DefaultTo<'primary'>;
+  };
+}
+
 export interface SidebarSidebar extends Schema.Component {
   collectionName: 'components_sidebar_sidebars';
   info: {
@@ -141,6 +154,7 @@ declare module '@strapi/types' {
       'hero.hero': HeroHero;
       'itemcomponent.item-component': ItemcomponentItemComponent;
       'logo.logo': LogoLogo;
+      'promotionads.promotion-ads': PromotionadsPromotionAds;
       'sidebar.sidebar': SidebarSidebar;
     }
   }

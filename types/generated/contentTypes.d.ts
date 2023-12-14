@@ -712,6 +712,18 @@ export interface ApiDashboardDashboard extends Schema.SingleType {
           localized: true;
         };
       }>;
+    depositAds: Attribute.Component<'promotionads.promotion-ads'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    registerAds: Attribute.Component<'promotionads.promotion-ads'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

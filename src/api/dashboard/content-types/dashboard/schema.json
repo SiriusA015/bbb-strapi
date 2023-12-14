@@ -48,6 +48,27 @@
         }
       },
       "component": "cardsection.card-section"
+    },
+    "depositAds": {
+      "displayName": "PromotionAds",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "promotionads.promotion-ads"
+    },
+    "registerAds": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "promotionads.promotion-ads"
     }
   }
 }
